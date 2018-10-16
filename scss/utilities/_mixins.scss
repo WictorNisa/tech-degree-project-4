@@ -4,3 +4,25 @@
   display: flex;
   justify-content: center;
 }
+
+@mixin nav-layout {
+  list-style: none;
+  padding: 1em 6em 0 6em;
+  text-decoration: none;
+  text-align: center;
+  border: 1px solid $white-col;
+  border-radius: 5px 5px;
+}
+
+@mixin contain {
+  width: $container-width;
+  margin: 0 auto;
+}
+
+@mixin img-hero {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 2em;
+  padding-bottom: 1em;
+}

@@ -1,0 +1,29 @@
+
+
+.grid__col--9 {
+  @include nav-flex;
+}
+
+.nav {
+display: flex;
+flex-direction: column;
+padding: 0;
+}
+
+.nav__item {
+  @include nav-layout;
+    &:hover {
+    background-color: $nav-button-color;
+  }
+}
+
+.nav__item a {
+  text-decoration: none;
+  display: inline-block;
+  padding-bottom: 10px;
+  color: $grey-col;
+  font-weight: lighter;
+    &:hover {
+      color: $white-col;
+    }
+}
