@@ -5,7 +5,7 @@
   color: grey;
   font-weight: lighter;
   margin-top: 5em;
-  margin-bottom: 1em;
+  margin-bottom: 3em;
 }
 
 %headline1 {
@@ -32,8 +32,17 @@
   display: block;
   margin-left: auto;
   margin-right: auto;
+  padding-top: 2em;
 }
 
+%img-frm {
+  display: block;
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+  border: 1px solid #BDC2C4;
+  padding: .6em;
+}
 
 %block-quote {
   border-left: 8px solid $main-green-col;
@@ -43,5 +52,5 @@
   font-style: italic;
   color: grey;
   margin: 0 0 0 16px;
-  padding-left: 14px;
+  padding-left: 19px;
 }
