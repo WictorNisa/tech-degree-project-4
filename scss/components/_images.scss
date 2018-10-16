@@ -1,3 +1,7 @@
 .img--logo {
-  @include img-hero;
+  @extend %img-hero;
+}
+
+.img--avatar {
+ @extend %img-ava;
 }

@@ -1,8 +1,56 @@
 /*========== VARIABLES ===========*/
+.headline--secondary {
+  color: grey;
+  font-weight: lighter;
+  margin-top: 5em;
+  margin-bottom: 1em;
+}
+
+.headline--primary {
+  color: #58E1C1;
+  padding-left: 0.8em;
+}
+
+.link {
+  text-decoration: none;
+  color: #51DDFC;
+  font-weight: bold;
+}
+
+.img--logo {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 2em;
+  padding-bottom: 1em;
+}
+
+.img--avatar {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.blockquote {
+  border-left: 8px solid #58E1C1;
+  border-radius: 4px;
+  font-size: 1.5em;
+  font-weight: lighter;
+  font-style: italic;
+  color: grey;
+  margin: 0 0 0 16px;
+  padding-left: 14px;
+}
+
+@font-face {
+  font-family: "Helvetica Neue";
+  src: url("/fonts/OpenSans-Regular-webfont.woff2") format("woff2");
+}
 p {
   color: grey;
-  padding: 4em 0 4em 0;
-  line-height: 1.3em;
+  padding: 1em 0 1em 0;
+  line-height: 1.5em;
+  font-weight: lighter;
 }
 
 /*! normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css */
@@ -400,19 +448,6 @@ th {
   padding: 0;
 }
 
-.container {
-  width: 90%;
-  margin: 0 auto;
-}
-
-.img--logo {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  padding-top: 2em;
-  padding-bottom: 1em;
-}
-
 .grid__col--9 {
   display: flex;
   justify-content: center;
@@ -445,6 +480,11 @@ th {
 }
 .nav__item a:hover {
   color: #fff;
+}
+
+.container {
+  width: 90%;
+  margin: 0 auto;
 }
 
 /*# sourceMappingURL=styles.css.map */

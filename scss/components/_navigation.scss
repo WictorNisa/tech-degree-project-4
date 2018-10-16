@@ -13,7 +13,7 @@ padding: 0;
 .nav__item {
   @include nav-layout;
     &:hover {
-    background-color: $nav-button-color;
+    background-color: $main-green-col;
   }
 }
 

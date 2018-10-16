@@ -1,0 +1,47 @@
+
+// PARTIALS
+
+%headline2 {
+  color: grey;
+  font-weight: lighter;
+  margin-top: 5em;
+  margin-bottom: 1em;
+}
+
+%headline1 {
+  color: $main-green-col;
+  padding-left: 0.8em;
+}
+
+
+%linko {
+  text-decoration: none;
+  color: $bright-blue;
+  font-weight: bold;
+}
+
+%img-hero {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 2em;
+  padding-bottom: 1em;
+}
+
+%img-ava {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+%block-quote {
+  border-left: 8px solid $main-green-col;
+  border-radius: 4px;
+  font-size: 1.5em;
+  font-weight: lighter;
+  font-style: italic;
+  color: grey;
+  margin: 0 0 0 16px;
+  padding-left: 14px;
+}

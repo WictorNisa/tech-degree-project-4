@@ -1,0 +1,26 @@
+.container {
+  @include contain;
+}
+
+// HEADLINES //
+
+.headline--secondary {
+  @extend %headline2;
+}
+
+.headline--primary {
+  @extend %headline1;
+}
+
+
+// LINKS //
+
+.link {
+  @extend %linko;
+}
+
+// BLOCKQUOTE //
+
+.blockquote {
+  @extend %block-quote;
+}
