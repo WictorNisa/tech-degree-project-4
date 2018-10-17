@@ -1,6 +1,37 @@
 
 // BUTTONS //
 
-.btn--default {
- @include button-def;
+// .btn--default {
+//  @include button-def;
+// }
+
+.btn {
+
+  &--default {
+    @include button-def
+  }
+
+  &--success {
+    @include button-def {
+      background-color: $suc-col;
+    }
+  }
+
+  &--error {
+    @include button-def {
+      background-color: $error-col;
+    }
+  }
+
+  &--warning {
+    @include button-def {
+      background-color: $warning-col;
+    }
+  }
+
+  &--info {
+    @include button-def {
+      background-color: $info-col;
+    }
+  }
 }

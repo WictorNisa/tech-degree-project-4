@@ -1,11 +1,15 @@
-.img--logo {
-  @extend %img-hero;
-}
 
-.img--avatar {
- @extend %img-ava;
-}
+.img {
 
-.img--frame {
-  @extend %img-frm;
+  &--logo {
+    @extend %img-hero;
+  }
+
+  &--avatar {
+    @extend %img-ava;
+  }
+
+  &--frame {
+    @extend %img-frm;
+  }
 }

@@ -5,7 +5,15 @@
 //   padding-top: 3em;
 //   padding-bottom: 1em;
 // }
+.grid__row {
+
+}
+
 
 .grid__col--4 {
   @include nav-flex;
+}
+
+.grid__col--12 {
+  @include flex($dir: column);
 }
