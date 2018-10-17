@@ -1,5 +1,13 @@
 
 .form {
-  display: flex;
-  flex-direction: row;
+  width: 90%;
+  margin: 0 auto;
+}
+
+.form__label--hidden {
+  @extend %form-fix;
+}
+
+.form__input {
+  @extend %form-bord;
 }
