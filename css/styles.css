@@ -500,7 +500,6 @@ th {
   border-radius: 5px 5px;
   padding: 0.8em 0 0.8em 0;
   color: white;
-  background-color: #51DDFC;
   background-color: #63CD83;
 }
 .btn--error {
@@ -514,7 +513,7 @@ th {
   border-radius: 5px 5px;
   padding: 0.8em 0 0.8em 0;
   color: white;
-  background-color: #51DDFC;
+  background-color: #E5767B;
 }
 .btn--warning {
   display: block;
@@ -527,7 +526,7 @@ th {
   border-radius: 5px 5px;
   padding: 0.8em 0 0.8em 0;
   color: white;
-  background-color: #51DDFC;
+  background-color: #FD7955;
 }
 .btn--info {
   display: block;
@@ -540,7 +539,7 @@ th {
   border-radius: 5px 5px;
   padding: 0.8em 0 0.8em 0;
   color: white;
-  background-color: #51DDFC;
+  background-color: #937CC2;
 }
 
 .grid__col--4 {

@@ -1,14 +1,13 @@
 
 // BUTTONS //
 
-// .btn--default {
-//  @include button-def;
-// }
 
 .btn {
 
   &--default {
-    @include button-def
+    @include button-def {
+        background-color: $bright-blue;
+    }
   }
 
   &--success {
@@ -30,8 +29,9 @@
   }
 
   &--info {
-    @include button-def {
-      background-color: $info-col;
+    @include button-def {
+        background-color: $info-col;
     }
   }
+
 }

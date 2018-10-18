@@ -19,7 +19,7 @@
   margin: 0 auto;
 }
 
-@mixin button-def() {
+@mixin button-def {
   display: block;
   text-transform: uppercase;
   margin-left: auto;
@@ -30,7 +30,6 @@
   border-radius: 5px 5px;
   padding: .8em 0 .8em 0;
   color: white;
-  background-color: $bright-blue;
   @content;
 }
 
