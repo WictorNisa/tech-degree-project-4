@@ -1,4 +1,5 @@
 
+// NAVIGATION //
 
 .nav {
 display: flex;
@@ -7,7 +8,7 @@ padding: 0;
 }
 
 .nav__item {
-  @include nav-layout;
+  @include flex;
     &:hover {
     background-color: $main-green-col;
   }

@@ -1,10 +1,13 @@
 
-// PARTIALS
+// PLACEHOLDERS //
+
+
+// HEADLINES //
 
 %headline2 {
   color: grey;
   font-weight: lighter;
-  margin-top: 5em;
+  margin-top: 3.5em;
   padding-bottom: 1.5em;
 }
 
@@ -13,6 +16,7 @@
   padding-left: 0.8em;
 }
 
+// IMAGES //
 
 %linko {
   text-decoration: none;
@@ -45,6 +49,8 @@
   padding: .6em;
 }
 
+// QUOTES //
+
 %block-quote {
   border-left: 8px solid $main-green-col;
   border-radius: 4px;
@@ -55,6 +61,8 @@
   margin: 0 0 0 16px;
   padding-left: 19px;
 }
+
+// FORMS //
 
 %form-fix {
   display: none;
@@ -72,8 +80,4 @@
   padding-bottom: .7em;
   padding-top: 2.1em;
   padding-left: 1em;
-}
-
-%error-button {
-  background-color: $error-col;
 }
