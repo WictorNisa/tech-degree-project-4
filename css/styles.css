@@ -554,8 +554,26 @@ th {
   border-radius: 5px 5px;
 }
 
-.grid__col--4 .theme__colors {
-  background-color: red;
+.grid__row .theme__colors.grid__col--12 {
+  background-color: #81E9D2;
+}
+.grid__row .theme__colors.grid__col--6 {
+  background-color: #3DACCB;
+}
+.grid__row .theme__colors.grid__col--4 {
+  background-color: #7FE7FD;
+}
+.grid__row .theme__colors.grid__col--3 {
+  background-color: #DFB3EE;
+}
+.grid__row .theme__colors.grid__col--5 {
+  background-color: #89DAA1;
+}
+.grid__row .theme__colors.grid__col--7 {
+  background-color: #EDA0A4;
+}
+.grid__row .theme__colors.grid__col--8 {
+  background-color: #FDA086;
 }
 
 .nav {

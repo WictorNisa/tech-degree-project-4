@@ -49,9 +49,17 @@
 
 
 @mixin flex ($display: flex, $dir: null, $wrap: null, $just: null){
-    display: $display;
-    flex-direction: $dir;
-    flex-wrap: $wrap;
-    justify-content: $just;
-    @content;
+  display: $display;
+  flex-direction: $dir;
+  flex-wrap: $wrap;
+  justify-content: $just;
+  @content;
+}
+
+@mixin themes($map) {
+  @each $theme, $color in $map {
+    .col--#{$theme} {
+      background-color: $color;
+    }
+  }
 }

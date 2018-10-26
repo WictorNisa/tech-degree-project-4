@@ -48,10 +48,13 @@
 // }
 
 
-.grid__row {
+.grid__row{
   @include mobile-grid;
 }
-
-.grid__col--4 .theme__colors {
-  background-color: red;
+.grid__row {
+  @each $theme, $color in $themes {
+    .theme__colors.grid__col--#{$theme} {
+      background-color: $color;
+    }
+  }
 }
