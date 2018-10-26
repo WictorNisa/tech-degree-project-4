@@ -543,6 +543,7 @@ th {
 }
 
 .grid__row {
+  width: 90%;
   display: block;
   margin-left: auto;
   margin-right: auto;
@@ -551,6 +552,10 @@ th {
   width: 340px;
   border: 1px solid #fff;
   border-radius: 5px 5px;
+}
+
+.grid__col--4 .theme__colors {
+  background-color: red;
 }
 
 .nav {
