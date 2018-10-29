@@ -1,9 +1,15 @@
 
 //GRID VIEW //
 
-// .grid__row{
-//   @include mobile-grid;
-// }
+.grid__row{
+  @media (min-width: 1400px) {
+    margin-left: none;
+    margin-right: none;
+    margin-bottom: none;
+    padding: none;
+    width: 90%;
+  }
+}
 
 .grid__row {
   @each $theme, $color in $themes {
@@ -12,10 +18,11 @@
     }
   }
 }
-// .grid__row {
-// @for $i from 2 through 12 {
-//   .theme__colors.grid__col--#{$i} {
-//     @include grid-expand(.5em 0 .5em .5em, .3em, 5px 5px);
-//   }
-//   }
-// }
+
+.grid__row {
+  @for $i from 2 through 12 {
+  .theme__colors.grid__col--#{$i} {
+    @include grid-expand(.5em 0 .5em .5em, .3em, 5px 5px);
+  }
+  }
+}

@@ -544,13 +544,11 @@ th {
 }
 
 .grid__row {
-  width: 90%;
   display: block;
   margin-left: auto;
   margin-right: auto;
   margin-bottom: 0.3em;
   padding: 0.7em 0 0.7em 0.4em;
-  width: 340px;
   border: 1px solid #fff;
   border-radius: 5px 5px;
 }
@@ -577,10 +575,21 @@ th {
   background-color: #FDA086;
 }
 
+@media (min-width: 1400px) {
+  .img--logo {
+    display: inline-block;
+  }
+}
 .nav {
   display: flex;
   flex-direction: column;
   padding: 0;
+}
+@media (min-width: 1400px) {
+  .nav {
+    display: flex;
+    flex-direction: row;
+  }
 }
 
 .nav__item {
@@ -590,6 +599,11 @@ th {
   text-align: center;
   border: 1px solid #fff;
   border-radius: 5px 5px;
+}
+@media (min-width: 1400px) {
+  .nav__item {
+    padding: 1em 1em 0 1em;
+  }
 }
 .nav__item:hover {
   background-color: #58E1C1;

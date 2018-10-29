@@ -34,13 +34,11 @@
 }
 
 @mixin mobile-grid {
-  width: 90%;
   display: block;
   margin-left: auto;
   margin-right: auto;
   margin-bottom: .3em;
   padding: .7em 0 .7em .4em;
-  width: 340px;
   border: 1px solid $white-col;
   border-radius: 5px 5px;
   @content;
