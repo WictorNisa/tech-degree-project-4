@@ -2,13 +2,7 @@
 //GRID VIEW //
 
 .grid__row{
-  @media (min-width: 1400px) {
-    margin-left: none;
-    margin-right: none;
-    margin-bottom: none;
-    padding: none;
-    width: 90%;
-  }
+@include flex($dir: column)
 }
 
 .grid__row {

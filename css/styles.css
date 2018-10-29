@@ -543,14 +543,14 @@ th {
   background-color: #937CC2;
 }
 
-.grid__row {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  margin-bottom: 0.3em;
-  padding: 0.7em 0 0.7em 0.4em;
-  border: 1px solid #fff;
-  border-radius: 5px 5px;
+@media (min-width: 1400px) {
+  .grid__row {
+    margin-left: none;
+    margin-right: none;
+    margin-bottom: none;
+    padding: none;
+    width: 90%;
+  }
 }
 
 .grid__row .theme__colors.grid__col--12 {
@@ -575,21 +575,73 @@ th {
   background-color: #FDA086;
 }
 
+.grid__row .theme__colors.grid__col--2 {
+  padding: 0.5em 0 0.5em 0.5em;
+  margin-bottom: 0.3em;
+  border-radius: 5px 5px;
+}
+.grid__row .theme__colors.grid__col--3 {
+  padding: 0.5em 0 0.5em 0.5em;
+  margin-bottom: 0.3em;
+  border-radius: 5px 5px;
+}
+.grid__row .theme__colors.grid__col--4 {
+  padding: 0.5em 0 0.5em 0.5em;
+  margin-bottom: 0.3em;
+  border-radius: 5px 5px;
+}
+.grid__row .theme__colors.grid__col--5 {
+  padding: 0.5em 0 0.5em 0.5em;
+  margin-bottom: 0.3em;
+  border-radius: 5px 5px;
+}
+.grid__row .theme__colors.grid__col--6 {
+  padding: 0.5em 0 0.5em 0.5em;
+  margin-bottom: 0.3em;
+  border-radius: 5px 5px;
+}
+.grid__row .theme__colors.grid__col--7 {
+  padding: 0.5em 0 0.5em 0.5em;
+  margin-bottom: 0.3em;
+  border-radius: 5px 5px;
+}
+.grid__row .theme__colors.grid__col--8 {
+  padding: 0.5em 0 0.5em 0.5em;
+  margin-bottom: 0.3em;
+  border-radius: 5px 5px;
+}
+.grid__row .theme__colors.grid__col--9 {
+  padding: 0.5em 0 0.5em 0.5em;
+  margin-bottom: 0.3em;
+  border-radius: 5px 5px;
+}
+.grid__row .theme__colors.grid__col--10 {
+  padding: 0.5em 0 0.5em 0.5em;
+  margin-bottom: 0.3em;
+  border-radius: 5px 5px;
+}
+.grid__row .theme__colors.grid__col--11 {
+  padding: 0.5em 0 0.5em 0.5em;
+  margin-bottom: 0.3em;
+  border-radius: 5px 5px;
+}
+.grid__row .theme__colors.grid__col--12 {
+  padding: 0.5em 0 0.5em 0.5em;
+  margin-bottom: 0.3em;
+  border-radius: 5px 5px;
+}
+
 @media (min-width: 1400px) {
   .img--logo {
     display: inline-block;
+    margin-left: 0;
+    margin-right: auto;
   }
 }
 .nav {
   display: flex;
   flex-direction: column;
   padding: 0;
-}
-@media (min-width: 1400px) {
-  .nav {
-    display: flex;
-    flex-direction: row;
-  }
 }
 
 .nav__item {

@@ -34,7 +34,8 @@
 }
 
 @mixin mobile-grid {
-  display: block;
+  display: flex;
+  flex-direction: column;
   margin-left: auto;
   margin-right: auto;
   margin-bottom: .3em;
