@@ -8,6 +8,8 @@
 
 .headline--secondary {
   @extend %headline2;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .headline--primary {

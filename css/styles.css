@@ -4,6 +4,7 @@
   font-weight: lighter;
   margin-top: 3.5em;
   padding-bottom: 1.5em;
+  margin-left: 0.8em;
 }
 
 .headline--primary {
@@ -608,6 +609,11 @@ th {
 .container {
   width: 90%;
   margin: 0 auto;
+}
+
+.headline--secondary {
+  margin-left: auto;
+  margin-right: auto;
 }
 
 /*# sourceMappingURL=styles.css.map */

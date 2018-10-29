@@ -1,56 +1,10 @@
 
-// MOBILE GRID VIEW //
+//GRID VIEW //
 
-//
-// .grid__col {
-//
-//   &--3 {
-//   @include mobile-grid {
-//   background-color: $grid-3;
-//     }
-//   }
-//
-//   &--4 {
-//   @include mobile-grid {
-//   background-color: $grid-4;
-//     }
-//   }
-//
-//   &--5 {
-//   @include mobile-grid {
-//   background-color: $grid-5;
-//     }
-//   }
-//
-//   &--6 {
-//   @include mobile-grid {
-//   background-color: $grid-6;
-//     }
-//   }
-//
-//   &--7 {
-//   @include mobile-grid {
-//   background-color: $grid-7;
-//     }
-//   }
-//
-//   &--8 {
-//   @include mobile-grid {
-//   background-color: $grid-8;
-//     }
-//   }
-//
-//   &--12 {
-//   @include mobile-grid {
-//   background-color: $grid-12;
-//     }
-//   }
+// .grid__row{
+//   @include mobile-grid;
 // }
 
-
-.grid__row{
-  @include mobile-grid;
-}
 .grid__row {
   @each $theme, $color in $themes {
     .theme__colors.grid__col--#{$theme} {
@@ -58,3 +12,10 @@
     }
   }
 }
+// .grid__row {
+// @for $i from 2 through 12 {
+//   .theme__colors.grid__col--#{$i} {
+//     @include grid-expand(.5em 0 .5em .5em, .3em, 5px 5px);
+//   }
+//   }
+// }
