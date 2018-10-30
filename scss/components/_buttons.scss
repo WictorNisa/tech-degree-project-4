@@ -8,6 +8,9 @@
     @include button-def {
         background-color: $bright-blue;
     }
+    @media (min-width: 1400px) {
+      width: 375px;
+    }
   }
 
   &--success {
