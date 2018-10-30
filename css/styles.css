@@ -620,57 +620,57 @@ th {
 }
 
 .grid__row .theme__colors.grid__col--2 {
-  padding: 0.5em 0 0.5em 0.5em;
+  padding: 0.7em 0 0.7em 0.5em;
   margin-bottom: 0.3em;
   border-radius: 5px 5px;
 }
 .grid__row .theme__colors.grid__col--3 {
-  padding: 0.5em 0 0.5em 0.5em;
+  padding: 0.7em 0 0.7em 0.5em;
   margin-bottom: 0.3em;
   border-radius: 5px 5px;
 }
 .grid__row .theme__colors.grid__col--4 {
-  padding: 0.5em 0 0.5em 0.5em;
+  padding: 0.7em 0 0.7em 0.5em;
   margin-bottom: 0.3em;
   border-radius: 5px 5px;
 }
 .grid__row .theme__colors.grid__col--5 {
-  padding: 0.5em 0 0.5em 0.5em;
+  padding: 0.7em 0 0.7em 0.5em;
   margin-bottom: 0.3em;
   border-radius: 5px 5px;
 }
 .grid__row .theme__colors.grid__col--6 {
-  padding: 0.5em 0 0.5em 0.5em;
+  padding: 0.7em 0 0.7em 0.5em;
   margin-bottom: 0.3em;
   border-radius: 5px 5px;
 }
 .grid__row .theme__colors.grid__col--7 {
-  padding: 0.5em 0 0.5em 0.5em;
+  padding: 0.7em 0 0.7em 0.5em;
   margin-bottom: 0.3em;
   border-radius: 5px 5px;
 }
 .grid__row .theme__colors.grid__col--8 {
-  padding: 0.5em 0 0.5em 0.5em;
+  padding: 0.7em 0 0.7em 0.5em;
   margin-bottom: 0.3em;
   border-radius: 5px 5px;
 }
 .grid__row .theme__colors.grid__col--9 {
-  padding: 0.5em 0 0.5em 0.5em;
+  padding: 0.7em 0 0.7em 0.5em;
   margin-bottom: 0.3em;
   border-radius: 5px 5px;
 }
 .grid__row .theme__colors.grid__col--10 {
-  padding: 0.5em 0 0.5em 0.5em;
+  padding: 0.7em 0 0.7em 0.5em;
   margin-bottom: 0.3em;
   border-radius: 5px 5px;
 }
 .grid__row .theme__colors.grid__col--11 {
-  padding: 0.5em 0 0.5em 0.5em;
+  padding: 0.7em 0 0.7em 0.5em;
   margin-bottom: 0.3em;
   border-radius: 5px 5px;
 }
 .grid__row .theme__colors.grid__col--12 {
-  padding: 0.5em 0 0.5em 0.5em;
+  padding: 0.7em 0 0.7em 0.5em;
   margin-bottom: 0.3em;
   border-radius: 5px 5px;
 }
@@ -738,7 +738,7 @@ th {
 }
 
 .grid__col--7.theme__colors {
-  flex: 1;
+  flex: 3;
   margin-top: 2em;
   margin-left: 0.5em;
   margin-right: 0.5em;

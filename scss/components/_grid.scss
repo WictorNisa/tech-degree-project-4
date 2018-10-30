@@ -19,7 +19,7 @@
 .grid__row {
   @for $i from 2 through 12 {
   .theme__colors.grid__col--#{$i} {
-    @include grid-expand(.5em 0 .5em .5em, .3em, 5px 5px);
+    @include grid-expand(.7em 0 .7em .5em, .3em, 5px 5px);
   }
   }
 }
@@ -77,7 +77,7 @@
 }
 
 .grid__col--7.theme__colors{
-  flex:1;
+  flex: 3;
   @include grid-marg;
 }
 
