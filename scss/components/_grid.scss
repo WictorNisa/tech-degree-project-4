@@ -2,7 +2,10 @@
 //GRID VIEW //
 
 .grid__row{
-@include flex($dir: column)
+@include flex($dir: row);
+@media (max-width: 480px) {
+  @include flex($dir:column)
+}
 }
 
 .grid__row {
@@ -19,4 +22,16 @@
     @include grid-expand(.5em 0 .5em .5em, .3em, 5px 5px);
   }
   }
+}
+
+.grid__row {
+  justify-content: space-between;
+}
+
+.grid__col--8 {
+  flex: 2;
+}
+
+.grid__col--4 {
+  flex: 1;
 }
