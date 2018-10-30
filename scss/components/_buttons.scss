@@ -9,7 +9,7 @@
         background-color: $bright-blue;
     }
     @media (min-width: 1400px) {
-      width: 375px;
+      width: 220px;
     }
   }
 
@@ -17,11 +17,17 @@
     @include button-def {
       background-color: $suc-col;
     }
+    @media (min-width: 1400px) {
+      width: 200px;
+    }
   }
 
   &--error {
     @include button-def {
       background-color: $error-col;
+    }
+    @media (min-width: 1400px) {
+      width: 200px;
     }
   }
 
@@ -29,12 +35,17 @@
     @include button-def {
       background-color: $warning-col;
     }
+    @media (min-width: 1400px) {
+      width: 250px;
+    }
   }
 
   &--info {
     @include button-def {
         background-color: $info-col;
     }
+    @media (min-width: 1400px) {
+      width: 150px;
+    }
   }
-
 }

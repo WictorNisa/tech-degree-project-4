@@ -7,15 +7,14 @@ flex-direction: column;
 padding: 0;
 @media (min-width: 1400px) {
   @include flex($dir:row );
-  margin-right: 10em;
-}
+  }
 }
 
 .nav__item {
   @include nav-layout;
   @media (min-width: 1400px) {
-    padding: 2em 1em 0 1em;
-
+    padding: 1em 1em 0 1em;
+    margin-top: 1em;
   }
     &:hover {
     background-color: $main-green-col;

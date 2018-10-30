@@ -5,16 +5,15 @@
     @extend %img-hero;
     @media (min-width: 1400px) {
     display: inline-block;
-    margin-left: 2em;
     margin-right: auto;
-    padding-top:1em;
+    padding-top: 1em;
     }
   }
 
   &--avatar {
     @extend %img-ava;
     @media (min-width: 1400px) {
-      padding-top: 1em;
+      padding-top: 0;
     }
   }
 

@@ -25,14 +25,27 @@
 }
 
 .grid__row {
-  justify-content: space-between;
+  justify-content: space-around;
 }
 
 .grid__col--8 {
-  flex: 2;
-  padding-right: 5em;
+  @media (min-width: 1400px) {
+    flex: 2;
+    padding-right: 5em;
+  }
 }
 
 .grid__col--4 {
-  flex: 1;  
+  flex: 1;
+   .btn--default {
+     @media (min-width: 1400px) {
+       width: 375px;
+     }
+   }
+}
+
+.grid__col--12 {
+  @media (min-width: 1400px) {
+    @include flex($dir: row, $just: space-between)
+  }
 }

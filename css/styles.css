@@ -492,7 +492,7 @@ th {
 }
 @media (min-width: 1400px) {
   .btn--default {
-    width: 375px;
+    width: 220px;
   }
 }
 .btn--success {
@@ -508,6 +508,11 @@ th {
   color: white;
   background-color: #63CD83;
 }
+@media (min-width: 1400px) {
+  .btn--success {
+    width: 200px;
+  }
+}
 .btn--error {
   display: block;
   text-transform: uppercase;
@@ -520,6 +525,11 @@ th {
   padding: 0.8em 0 0.8em 0;
   color: white;
   background-color: #E5767B;
+}
+@media (min-width: 1400px) {
+  .btn--error {
+    width: 200px;
+  }
 }
 .btn--warning {
   display: block;
@@ -534,6 +544,11 @@ th {
   color: white;
   background-color: #FD7955;
 }
+@media (min-width: 1400px) {
+  .btn--warning {
+    width: 250px;
+  }
+}
 .btn--info {
   display: block;
   text-transform: uppercase;
@@ -546,6 +561,11 @@ th {
   padding: 0.8em 0 0.8em 0;
   color: white;
   background-color: #937CC2;
+}
+@media (min-width: 1400px) {
+  .btn--info {
+    width: 150px;
+  }
 }
 
 @media (min-width: 1400px) {
@@ -646,29 +666,43 @@ th {
 }
 
 .grid__row {
-  justify-content: space-between;
+  justify-content: space-around;
 }
 
-.grid__col--8 {
-  flex: 2;
-  padding-right: 5em;
+@media (min-width: 1400px) {
+  .grid__col--8 {
+    flex: 2;
+    padding-right: 5em;
+  }
 }
 
 .grid__col--4 {
   flex: 1;
 }
+@media (min-width: 1400px) {
+  .grid__col--4 .btn--default {
+    width: 375px;
+  }
+}
+
+@media (min-width: 1400px) {
+  .grid__col--12 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+}
 
 @media (min-width: 1400px) {
   .img--logo {
     display: inline-block;
-    margin-left: 2em;
     margin-right: auto;
     padding-top: 1em;
   }
 }
 @media (min-width: 1400px) {
   .img--avatar {
-    padding-top: 1em;
+    padding-top: 0;
   }
 }
 .nav {
@@ -680,7 +714,6 @@ th {
   .nav {
     display: flex;
     flex-direction: row;
-    margin-right: 10em;
   }
 }
 
@@ -694,7 +727,8 @@ th {
 }
 @media (min-width: 1400px) {
   .nav__item {
-    padding: 2em 1em 0 1em;
+    padding: 1em 1em 0 1em;
+    margin-top: 1em;
   }
 }
 .nav__item:hover {
