@@ -53,44 +53,58 @@
 // THEMECOLOR GRIDS //
 
 .grid__col--12.theme__colors {
-  display: flex;
-  flex: 1;
-  @include grid-marg;
-  align-items: center;
+  @media (min-width: 1400px) {
+    flex: 1;
+    @include grid-marg;
+  }
 }
 
 .grid__col--6.theme__colors {
-  flex: 2;
-  @include grid-marg;
+  @media (min-width: 1400px) {
+    flex: 2;
+    @include grid-marg;
+  }
 }
 
 .grid__col--4.theme__colors {
-  @include grid-marg;
+  @media (min-width: 1400px) {
+    @include grid-marg;
+  }
 }
 
 .grid__col--3.theme__colors {
-  flex: 4;
-  @include grid-marg;
+  @media (min-width: 1400px) {
+    flex: 4;
+    @include grid-marg;
+  }
 }
 
 .grid__col--5.theme__colors {
-  flex: 2;
-  @include grid-marg;
+  @media (min-width: 1400px) {
+    flex: 2;
+    @include grid-marg;
+  }
 }
 
 .grid__col--7.theme__colors{
-  flex: 3;
-  @include grid-marg;
+  @media (min-width: 1400px) {
+    flex: 3;
+    @include grid-marg;
+  }
 }
 
 .grid__col--8.theme__colors {
-  flex:3;
-  @include grid-marg;
+  @media (min-width: 1400px) {
+    flex: 2;
+    @include grid-marg;
+  }
 }
 
 .grid__col--7.theme__colors.centered {
+  @media (min-width: 1400px) {
   margin-left: auto;
   margin-right: auto;
   margin-bottom: 4em;
   max-width: 800px;
+}
 }
