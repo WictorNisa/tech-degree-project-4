@@ -704,10 +704,12 @@ th {
 }
 
 .grid__col--12.theme__colors {
+  display: flex;
   flex: 1;
   margin-top: 2em;
   margin-left: 0.5em;
   margin-right: 0.5em;
+  align-items: center;
 }
 
 .grid__col--6.theme__colors {
@@ -752,9 +754,10 @@ th {
 }
 
 .grid__col--7.theme__colors.centered {
-  margin-top: 2em;
-  margin-left: 0.5em;
-  margin-right: 0.5em;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 4em;
+  max-width: 800px;
 }
 
 @media (min-width: 1400px) {
