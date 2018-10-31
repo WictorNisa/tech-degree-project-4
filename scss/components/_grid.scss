@@ -19,13 +19,14 @@
 .grid__row {
   @for $i from 2 through 12 {
   .theme__colors.grid__col--#{$i} {
-    @include grid-expand(.7em 0 .7em .5em, .3em, 5px 5px);
+    @include grid-expand(.7em 0 .7em .5em, .2em, 5px 5px);
   }
   }
 }
 
 .grid__row {
   justify-content: space-around;
+  margin-bottom: 1.5em;
 }
 
 .grid__col--8 {
@@ -104,7 +105,6 @@
   @media (min-width: 1400px) {
   margin-left: auto;
   margin-right: auto;
-  margin-bottom: 4em;
   max-width: 800px;
 }
 }
