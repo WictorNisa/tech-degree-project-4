@@ -10,7 +10,7 @@
 
 .form__input {
   @extend %form-bord;
-  @media (min-width: 1400px) {
+  @media (min-width: 769px) {
     padding-top: 1em;
     border-bottom: 5px solid #58E1C1;
     width: 355px;

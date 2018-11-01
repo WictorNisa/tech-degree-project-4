@@ -10,7 +10,7 @@
   @extend %headline2;
   margin-left: auto;
   margin-right: auto;
-  @media (min-width: 1400px) {
+  @media (min-width: 769px) {
     padding-bottom: .5em;
   }
 }
@@ -30,7 +30,7 @@
 
 .blockquote {
   @extend %block-quote;
-  @media (min-width: 1400px) {
+  @media (min-width: 769px) {
     margin: 10px;
     padding-left: 30px;
   }

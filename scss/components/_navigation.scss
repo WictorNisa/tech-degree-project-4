@@ -5,14 +5,14 @@
 display: flex;
 flex-direction: column;
 padding: 0;
-@media (min-width: 1400px) {
+@media (min-width: 769px) {
   @include flex($dir:row );
   }
 }
 
 .nav__item {
   @include nav-layout;
-  @media (min-width: 1400px) {
+  @media (min-width: 769px) {
     padding: 1em 1em 0 1em;
     margin-top: 1em;
   }

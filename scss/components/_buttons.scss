@@ -8,7 +8,7 @@
     @include button-def {
         background-color: $bright-blue;
     }
-    @media (min-width: 1400px) {
+    @media (min-width: 769px) {
       width: 220px;
       margin-left: .8em;
       margin-right: .8em;
@@ -19,7 +19,7 @@
     @include button-def {
       background-color: $suc-col;
     }
-    @media (min-width: 1400px) {
+    @media (min-width: 769px) {
       width: 200px;
       margin-left: .8em;
       margin-right: .8em;
@@ -30,7 +30,7 @@
     @include button-def {
       background-color: $error-col;
     }
-    @media (min-width: 1400px) {
+    @media (min-width: 769px) {
       width: 200px;
       margin-left: .8em;
       margin-right: .8em;
@@ -41,7 +41,7 @@
     @include button-def {
       background-color: $warning-col;
     }
-    @media (min-width: 1400px) {
+    @media (min-width: 769px) {
       width: 250px;
       margin-left: .8em;
       margin-right: .8em;
@@ -52,7 +52,7 @@
     @include button-def {
         background-color: $info-col;
     }
-    @media (min-width: 1400px) {
+    @media (min-width: 769px) {
       width: 150px;
       margin-left: .8em;
       margin-right: .8em;
