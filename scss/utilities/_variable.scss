@@ -1,5 +1,10 @@
 /*========== VARIABLES ===========*/
 
+// BREAKPOINT //
+
+// $desktop: 769px;
+$media-break: 769px;
+
 // COMMON USED COLORS //
 
 $main-green-col: #58E1C1;
@@ -25,3 +30,7 @@ $themes: (
   '7':  #EDA0A4,
   '8':  #FDA086,
 );
+
+// FONTS //
+
+$main-font: 'Open Sans', sans-serif;

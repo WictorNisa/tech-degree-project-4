@@ -3,7 +3,6 @@
   color: grey;
   font-weight: lighter;
   margin-top: 3.5em;
-  padding-bottom: 1.5em;
   margin-left: 0.8em;
 }
 
@@ -80,6 +79,7 @@ p {
   padding: 1em 0 1em 0;
   line-height: 1.5em;
   font-weight: lighter;
+  font-family: "Open Sans", sans-serif;
 }
 
 /*! normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css */
@@ -493,8 +493,8 @@ th {
 @media (min-width: 769px) {
   .btn--default {
     width: 220px;
-    margin-left: 0.8em;
-    margin-right: 0.8em;
+    margin-left: 1em;
+    margin-right: 1em;
   }
 }
 .btn--success {
@@ -512,9 +512,9 @@ th {
 }
 @media (min-width: 769px) {
   .btn--success {
-    width: 200px;
-    margin-left: 0.8em;
-    margin-right: 0.8em;
+    width: 220px;
+    margin-left: 1em;
+    margin-right: 1em;
   }
 }
 .btn--error {
@@ -532,9 +532,9 @@ th {
 }
 @media (min-width: 769px) {
   .btn--error {
-    width: 200px;
-    margin-left: 0.8em;
-    margin-right: 0.8em;
+    width: 220px;
+    margin-left: 1em;
+    margin-right: 1em;
   }
 }
 .btn--warning {
@@ -552,9 +552,9 @@ th {
 }
 @media (min-width: 769px) {
   .btn--warning {
-    width: 250px;
-    margin-left: 0.8em;
-    margin-right: 0.8em;
+    width: 220px;
+    margin-left: 1em;
+    margin-right: 1em;
   }
 }
 .btn--info {
@@ -572,9 +572,9 @@ th {
 }
 @media (min-width: 769px) {
   .btn--info {
-    width: 150px;
-    margin-left: 0.8em;
-    margin-right: 0.8em;
+    width: 220px;
+    margin-left: 1em;
+    margin-right: 1em;
   }
 }
 

@@ -3,7 +3,7 @@
 
 .grid__row{
 @include flex($dir: row,);
-@media (max-width: 769px) {
+@media (max-width: $media-break) {
   @include flex($dir:column)
 }
 }
@@ -21,7 +21,7 @@
   .theme__colors.grid__col--#{$i} {
     @include grid-expand(.7em 0 .7em .5em, .2em, 5px 5px);
     display: flex;
-    @media (min-width: 769px) {
+    @media (min-width: $media-break) {
       display: flex;
       justify-content: center;
     }
@@ -35,7 +35,7 @@
 }
 
 .grid__col--8 {
-  @media (min-width: 769px) {
+  @media (min-width: $media-break) {
     flex: 2;
     padding-right: 5em;
   }
@@ -44,14 +44,14 @@
 .grid__col--4 {
   flex: 1;
    .btn--default {
-     @media (min-width: 769px) {
+     @media (min-width: $media-break) {
        width: 375px;
      }
    }
 }
 
 .grid__col--12 {
-  @media (min-width: 769px) {
+  @media (min-width: $media-break) {
     @include flex($dir: row, $just: space-between)
   }
 }
@@ -59,48 +59,48 @@
 // THEMECOLOR GRIDS //
 
 .grid__col--12.theme__colors {
-  @media (min-width: 769px) {
+  @media (min-width: $media-break) {
     flex: 1;
     @include grid-marg;
   }
 }
 
 .grid__col--6.theme__colors {
-  @media (min-width: 769px) {
+  @media (min-width: $media-break) {
     flex: 2;
     @include grid-marg;
   }
 }
 
 .grid__col--4.theme__colors {
-  @media (min-width: 769px) {
+  @media (min-width: $media-break) {
     @include grid-marg;
   }
 }
 
 .grid__col--3.theme__colors {
-  @media (min-width: 769px) {
+  @media (min-width: $media-break) {
     flex: 4;
     @include grid-marg;
   }
 }
 
 .grid__col--5.theme__colors {
-  @media (min-width: 769px) {
+  @media (min-width: $media-break) {
     flex: 2;
     @include grid-marg;
   }
 }
 
 .grid__col--7.theme__colors{
-  @media (min-width: 769px) {
+  @media (min-width: $media-break) {
     flex: 3;
     @include grid-marg;
   }
 }
 
 .grid__col--8.theme__colors {
-  @media (min-width: 769px) {
+  @media (min-width: $media-break) {
     flex: 2;
     @include grid-marg;
   }
