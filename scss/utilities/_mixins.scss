@@ -55,11 +55,11 @@
   @content;
 }
 
-// @mixin respond-to($media) {
-//     @media (min-width: #{$media}) {
-//         @content;
-//     }
-// }
+@mixin respond-to($media) {
+    @media (min-width: #{$media}) {
+        @content;
+    }
+}
 
 @mixin grid-expand($padding: null, $mar-bot: null, $bord-rad: null) {
   padding: $padding;
